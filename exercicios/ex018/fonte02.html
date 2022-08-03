@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte Externas</title>
+    <style>
+        @font-face {
+            font-family:'Love' ;
+            src: url('fonts/love larry.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family:'mulish' ;
+            src: url('fonts/mulish.ttf') format('truetype');
+        }
+
+            /*
+                Tipos de format()
+                - opentype(otf)
+                - truetype(ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        
+        
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, rgba(90, 90, 90, 0.568), rgb(68, 134, 136));
+        }
+        h1{
+            font-family: 'Love', 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+            text-align: center;
+            color: white;
+        }
+        main{
+
+            font-family: 'mulish';
+            font-size: 1em;
+            font-weight: normal;
+            box-shadow: 10px 10px 15px rgba(0, 0, 255, 0.356);
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid blue;
+            text-align: justify;
+            margin: auto;
+            width: 600px;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nulla ipsa doloremque dolorem iure sit quam adipisci. Non fugit rem voluptatum nam error atque adipisci ratione, a harum quos sit.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad natus earum quo doloremque quas modi perspiciatis tempore, quidem quod vero. Temporibus corrupti molestias reiciendis omnis labore eum, voluptas amet. <br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus reiciendis impedit eaque quam excepturi quis quod a hic deleniti obcaecati esse, delectus perspiciatis earum assumenda doloribus sit repudiandae, dolor autem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolore ut consequatur, dicta labore consequuntur quia, dolores commodi molestiae vitae harum repellendus veritatis est sed quasi eius, perferendis incidunt animi? <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, deleniti deserunt autem officiis suscipit nemo eligendi ab vero ad similique velit corrupti ipsum error labore voluptates quia architecto at blanditiis.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem eveniet cum molestiae aliquam illum, dolorum recusandae impedit facere rem eligendi veritatis iusto maiores nesciunt. Maiores optio in at natus beatae!
+        </p>
+    </main>
+</body>
+</html>

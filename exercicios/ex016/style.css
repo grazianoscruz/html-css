@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{
+    font-family: segoe ui;
+    /* height: 100%; */
+}
+body{
+    background-image: linear-gradient(to right, #45B3E6, #0076AD);
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #00375093;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: #0076AD;
+    text-shadow: 2px 2px 0.5px #004e7254;
+}
+h2{
+    color:#004261 ;
+}
+p{
+    text-align: justify;
+}
