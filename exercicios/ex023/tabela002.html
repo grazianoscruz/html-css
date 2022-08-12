@@ -13,6 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -25,13 +26,25 @@
             font-weight: bold;
             padding: 10px;
             background-color: lightgray
-          
-         
         }
 
         thead, tfoot{
-            background-color: gray;
+            background-color: #383838;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd){ /* 2n-1 */
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgray;
         }
 
         td.num{
@@ -178,6 +191,13 @@
             </tr>
         </tfoot>
     </table>
-    
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magnam ea, placeat pariatur beatae ipsa praesentium maiores? Expedita veniam, nesciunt explicabo deserunt dolor magnam molestias incidunt nihil aperiam, laborum quidem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, architecto voluptates tempora vel ratione quia dignissimos maxime ad expedita cupiditate atque sit repellendus exercitationem error, repellat dolor doloremque blanditiis excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nihil non earum sequi cumque distinctio quam hic cupiditate mollitia harum, obcaecati, reiciendis nesciunt necessitatibus possimus. Minima recusandae vel quia obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, culpa ab illo explicabo velit similique accusantium rerum iste porro consectetur, eaque molestias blanditiis quibusdam ducimus odit at distinctio in? Tempore.
+    </p>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magnam ea, placeat pariatur beatae ipsa praesentium maiores? Expedita veniam, nesciunt explicabo deserunt dolor magnam molestias incidunt nihil aperiam, laborum quidem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, architecto voluptates tempora vel ratione quia dignissimos maxime ad expedita cupiditate atque sit repellendus exercitationem error, repellat dolor doloremque blanditiis excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nihil non earum sequi cumque distinctio quam hic cupiditate mollitia harum, obcaecati, reiciendis nesciunt necessitatibus possimus. Minima recusandae vel quia obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, culpa ab illo explicabo velit similique accusantium rerum iste porro consectetur, eaque molestias blanditiis quibusdam ducimus odit at distinctio in? Tempore.
+    </p>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magnam ea, placeat pariatur beatae ipsa praesentium maiores? Expedita veniam, nesciunt explicabo deserunt dolor magnam molestias incidunt nihil aperiam, laborum quidem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, architecto voluptates tempora vel ratione quia dignissimos maxime ad expedita cupiditate atque sit repellendus exercitationem error, repellat dolor doloremque blanditiis excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nihil non earum sequi cumque distinctio quam hic cupiditate mollitia harum, obcaecati, reiciendis nesciunt necessitatibus possimus. Minima recusandae vel quia obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, culpa ab illo explicabo velit similique accusantium rerum iste porro consectetur, eaque molestias blanditiis quibusdam ducimus odit at distinctio in? Tempore.
+    </p>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magnam ea, placeat pariatur beatae ipsa praesentium maiores? Expedita veniam, nesciunt explicabo deserunt dolor magnam molestias incidunt nihil aperiam, laborum quidem? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, architecto voluptates tempora vel ratione quia dignissimos maxime ad expedita cupiditate atque sit repellendus exercitationem error, repellat dolor doloremque blanditiis excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nihil non earum sequi cumque distinctio quam hic cupiditate mollitia harum, obcaecati, reiciendis nesciunt necessitatibus possimus. Minima recusandae vel quia obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, culpa ab illo explicabo velit similique accusantium rerum iste porro consectetur, eaque molestias blanditiis quibusdam ducimus odit at distinctio in? Tempore.
+    </p>
 </body>
 </html>
