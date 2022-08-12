@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <Style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: whitesmoke;            
+        }
+
+        table{
+            border-collapse:collapse;    
+        }
+        
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        thead{
+            background-color: gray;
+            color: white;
+        }
+
+        .media{
+            background-color: gray;
+            font-weight: bold;
+            color: white;
+            text-align: left;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;                       
+        }
+        
+        td.num{
+            text-align: center;
+        }
+
+        td.total{
+            background-color: gray;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Boletim Escolar</caption>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Displina</th>
+                <th scope="col">Notas</th>
+                <th scope="col">Média</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td class="disciplina">Matemática</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td class="disciplina">Física</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td class="disciplina">Química</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td class="disciplina">Biologia</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>                
+                <th colspan="4" class="media" scope="row">Média de exatas</th>
+                <td class="total">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td class="disciplina">História</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td class="disciplina">Geografia</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="media" scope="row">Média de Humanas</th>
+                <td class="total">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
